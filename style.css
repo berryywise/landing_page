@@ -3,12 +3,18 @@
     padding: 0px;
 }
 
+
 body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .hero {
     background-color: #1f2937;
+    width: 100%;
 }
 
 .title-sub, .links {
@@ -22,11 +28,28 @@ body {
     color: #f9faf8;
 }
 
+.title-container {
+    width: 400px;
+}
+
+.title-sub {
+    margin: 10px 0px;
+}
+
 .sign-up {
     padding: 5px 25px;
     background-color: #3882f6;
     border-radius: 5px;
     border-color: #3882f6;
+    color: white;
+}
+
+.placeholder {
+    padding: 100px 150px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -38,8 +61,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 10px 50px; */
-    /* margin-bottom: 100px; */
+    margin-bottom: 50px;
+    padding: 10px 150px;
 }
 
 .links {
@@ -51,5 +74,90 @@ body {
 
 .header-container {
     display: flex;
-    /* padding: 10px 50px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+    margin-bottom: 50px;
+}
+
+.random-container {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-title {
+    margin: 50px 0px 50px 0px;
+    color: #1f2937;
+}
+
+.random-subtext {
+    display: flex;
+    gap: 50px;
+}
+
+.random-card {
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.random-div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #e5e7eb;
+    padding: 150px;
+    gap: 20px;
+}
+
+.quote-title, .quote-name {
+    width: 600px;
+}
+
+.quote-title {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 200px;
+}
+
+.footer-button {
+    background-color: #3882f6;
+    padding: 25px 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    color: white;
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    width: 100%;
+    padding: 40px;
+    color: white;
 }
